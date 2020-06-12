@@ -1,7 +1,6 @@
 const absoluteValuesSumMinimization = (a: number[]): number => {
 
-    const half = halfway(a)
-    return (a.length % 2) ? a[half] :  a[half-1]
+    return (a.length % 2) ? a[halfway(a)] :  a[halfway(a)-1]
 
 }
 
